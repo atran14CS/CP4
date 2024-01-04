@@ -1,0 +1,66 @@
+/*
+  Name: Akira Tran
+  This is the css portion for index.html it's main job is to give the type of
+  display, images, color, font style, font sizes, and orgainization of how
+  each section looks on the webpage.
+*/
+
+body {
+  font-family: 'Bruno Ace SC', cursive;
+}
+
+#recomend-container, #btn, footer, #tr-btn {
+  margin-top: 20px;
+}
+
+#recomend-container, #btn, footer, #movie-generator, #tr-btn, #subscription {
+  text-align: center;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  filter: invert(100%);
+}
+
+#movie-generator {
+  margin-top: 50px;
+}
+
+#movie-generator img, .carousel-img {
+  height: 420px;
+  width: 700px;
+}
+
+#btn {
+  margin-top: 15px;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  background-color: #e0dbd7;
+  width: 100%;
+}
+
+footer p {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+
+#user-reviews img {
+  height: 128px;
+  width: 128px;
+}
+
+.dotted {
+  border-style: dotted;
+  border-color: red;
+}
+
+.dashed {
+  border-style: dashed;
+  border-color: blueviolet;
+}
